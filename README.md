@@ -1,6 +1,12 @@
 Awld.js
 =======
 
+BRANCH: pleiades-standalone
+----------------------------
+This is a hacked version of the main development thread, which should NOT BE MERGED BACK TO MASTER. The idea is to try to get around mixed content limitations in javascript by mounting Pleiades JSON and the Javascript itself on one's own server, which is presumed to be using https.
+
+
+
 Awld.js is a javascript library for Ancient World Linked Data. Dropped into an existing web page, it will add functionality and visual elements based on links to stable URIs relevant to the study of the Ancient World.
 
 You can see a working demo here: http://isawnyu.github.com/awld-js/awld-test.html
